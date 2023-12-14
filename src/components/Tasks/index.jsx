@@ -1,8 +1,9 @@
+//components/Tasks/index.jsx
 import { Task } from '../Task';
 import styles from './tasks.module.css';
-
-export function Tasks({ tasks, onDelete, onComplete }) {
-  const tasksQuantity = tasks.length;
+import '../../styles/global.css';
+export function Tasks({ tasks = [], onDelete, onComplete }) {
+  const tasksQuantity = tasks.length || 0;
   const completedTasks = tasks.filter(task => task.isCompleted).length;
 
   return (

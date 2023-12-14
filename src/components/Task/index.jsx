@@ -1,8 +1,11 @@
+//components/Task/index.jsx
 import styles from './task.module.css';
 import { BsFillCheckCircleFill } from 'react-icons/bs';
 import { TbTrash } from 'react-icons/tb';
+import '../../styles/global.css';
 
 export function Task({ task, onDelete, onComplete }) {
+  console.log('Task object:', task); // Adicione esta linha para debugar
   return (
     <div className={styles.task}>
       <button className={styles.checkContainer} onClick={() => onComplete(task.id)}>
@@ -17,5 +20,5 @@ export function Task({ task, onDelete, onComplete }) {
         <TbTrash size={20} />
       </button>
     </div>
-  )
+  );
 }

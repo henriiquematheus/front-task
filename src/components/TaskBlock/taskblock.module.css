@@ -1,0 +1,43 @@
+/* taskblock.module.css */
+.taskBlockContainer {
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+    max-height: 70vh; /* Defina a altura máxima dos blocos como 70% da altura da tela */
+    overflow-y: auto; /* Adicione uma barra de rolagem vertical se necessário */
+  }
+  
+  .taskBlockContent {
+    padding-bottom: 20px; /* Reduzindo o espaço extra no final para evitar a barra de rolagem lateral */
+  }
+  
+  .taskBlockTitle {
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+
+  .deleteButton {
+    width: 20px;
+    height: 20px;
+    background: none;
+    border: none;
+    color: #808080;
+    flex-shrink: 0; /* Evitar que o botão diminua seu tamanho */
+    /* Estilos semelhantes aos da tarefa */
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  }
+  
+  .deleteButton svg {
+    width: 20px;
+    height: 20px;
+    color: #808080;
+    margin-left: 8px;
+  }
+  
+  .deleteButton:hover svg {
+    color: #ff0000; /* Altera a cor do ícone ao passar o mouse */
+  }
+  

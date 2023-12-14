@@ -1,0 +1,76 @@
+/* styles.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #030607; /* Fundo escuro */
+    color: #fdfbf7; /* Cor do texto */
+  }
+  
+  .loginContainer {
+    background-color: #000001; /* Fundo mais escuro para o formulário */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .loginContainer h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #eae5df; /* Título em branco para contraste */
+  }
+  
+  .loginContainer input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #716757; /* Cor da borda dos inputs */
+    border-radius: 4px;
+    background-color: #0d1112; /* Fundo dos inputs */
+    color: #fdfbf7; /* Cor do texto nos inputs */
+  }
+  
+  .loginContainer button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0043b3; /* Cor de destaque do botão */
+    color: #fdfbf7; /* Cor do texto do botão */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .loginContainer button:hover {
+    background-color: #00264d; /* Cor do botão ao passar o mouse */
+  }
+  
+  .registerLink {
+    margin-top: 15px;
+    color: #0043b3;
+    cursor: pointer;
+  }
+  
+  .registerLink:hover {
+    text-decoration: underline;
+  }
+
+  .backButton {
+    margin-top: 30px; /* Ajusta a posição do botão para baixo */
+    color: #6b94b6; /* Azul mais suave para o botão */
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .backButton:hover {
+    text-decoration: underline;
+  }
+
+  
+
+  

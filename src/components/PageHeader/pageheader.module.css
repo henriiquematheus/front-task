@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  /* pageHeader.module.css */
+  .pageHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Ajuste o padding conforme necessário */
+    background-color: #262626; /* Alterando a cor de fundo */
+    color: #D9D9D9; /* Cor do texto */
+    border-radius: 8px; /* Adicionando bordas arredondadas */
+  }
+  
+  .title {
+    font-size: 24px; /* Ajuste o tamanho do texto conforme necessário */
+    font-family: 'Inter', sans-serif; /* Usando a mesma fonte do restante */
+  }
+  
+  .userIcon {
+    color: #808080; /* Cor do ícone do usuário */
+    cursor: pointer;
+    /* Outros estilos do ícone do usuário */
+  }
+
+  .userActions {
+    color: #808080; /* Cor do ícone do usuário */
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+  }
